@@ -1,0 +1,84 @@
+body {}
+
+/* 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Work Sans', sans-serif;
+*/
+
+/* header */
+/* mainmenu */
+.mainmenu {
+  padding-top: 12px;
+}
+
+.logo img {
+  width: 80px;
+  height: 80px;
+}
+
+.nav ul {
+  list-style: none;
+}
+
+.nav ul li {
+  padding-left: 2rem;
+  color: #5a6e79;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: #5a6e79;
+  font-size: 1rem;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: normal;
+  transition: all .3s ease;
+}
+
+.nav ul li:last-child a {
+  background-color: #ffffff;
+  padding: 12px 20px;
+  border-radius: 50px;
+  color: #ffc178;
+  box-shadow: 0px 0px 122px .5px #5a6e79;
+}
+
+.nav ul li a:hover {
+  font-weight: bold;
+  color: #ffc178;
+}
+
+/* hero section */
+.hero-section {
+  margin-top: 100px;
+}
+
+.hero-bg {
+  background-image: url(./img/hero.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.hero-content h1 {
+  font-size: 40px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  color: #FFC178;
+}
+
+.hero-content p {
+  font-size: 18px;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.hero-btn {
+  background-color: #FFC178;
+  padding: 12px 24px;
+  border-radius: 50px;
+  color: #ffffff;
+  margin-top: 12px;
+  display: inline-block;
+  text-decoration: none;
+}
