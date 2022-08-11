@@ -1,4 +1,7 @@
-body {}
+body,
+p {
+  font-family: 'Work Sans', sans-serif;
+}
 
 /* 
 font-family: 'Montserrat', sans-serif;
@@ -81,4 +84,44 @@ font-family: 'Work Sans', sans-serif;
   margin-top: 12px;
   display: inline-block;
   text-decoration: none;
+}
+
+/* dept section */
+.dept-section {
+  margin-top: -15px;
+}
+
+.section-title h2 {
+  font-size: 40px;
+  color: #252C3A;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bold;
+}
+
+.section-title p {
+  color: #5a6e79;
+}
+
+.dept-card {
+  width: 360px;
+  height: 425px;
+  background-color: #F9703A;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.green-card {
+  background-color: #80BE41;
+}
+
+.yellow-card {
+  background-color: #FFB258;
+}
+
+.dept-card h4 {
+  font-weight: bold;
+  font-size: 30px;
+  color: #ffffff;
 }
