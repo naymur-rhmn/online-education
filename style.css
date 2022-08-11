@@ -179,3 +179,35 @@ font-family: 'Work Sans', sans-serif;
 .learning-info {
   margin-top: 50px;
 }
+
+/* university section */
+.university-section {
+  margin-top: 100px;
+}
+
+.card-title {
+  text-decoration: none;
+  color: #252c3a;
+}
+
+.card-title:hover {
+  color: #FFBA00;
+  text-decoration: underline;
+}
+
+.keep {
+  color: #5a6e79;
+}
+
+
+
+.card-body p {
+  margin: 0;
+}
+
+.catagory {
+  font-size: 14px;
+  margin-top: 8px;
+  display: block;
+  margin-bottom: 25px;
+}
