@@ -125,3 +125,57 @@ font-family: 'Work Sans', sans-serif;
   font-size: 30px;
   color: #ffffff;
 }
+
+/* intro section */
+.intro-section {
+  margin-top: 75px;
+}
+
+.iframe-intro {
+  border-radius: 50%;
+  background-color: white;
+  padding: 8px;
+  border: 8px solid #FDF6EE;
+}
+
+.intro-content h2 {
+  font-size: 40px;
+  color: #252c3a;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.intro-content p {
+  font-size: 18px;
+  color: #5a6e79;
+  margin-top: 30px;
+}
+
+.students p,
+.courses p,
+.video p {
+  color: #FFBA00;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+.learning-info .number {
+  font-size: 40px;
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+}
+
+.courses p {
+  color: #FF5F72;
+}
+
+.video p {
+  color: #43CB83;
+}
+
+.learning-info {
+  margin-top: 50px;
+}
